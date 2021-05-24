@@ -4,6 +4,6 @@ class LoginController < ApplicationController
   layout "login"
 
   def index
-    @login_props = { name: "Stranger" }
+    @login_props = {}
   end
 end
