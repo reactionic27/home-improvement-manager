@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 60px);
 }
 
 .login-container {
@@ -22,5 +22,44 @@ body {
     cursor: pointer;
     outline: none;
     border: none;
+  }
+}
+
+.header {
+  background: #002ACF;
+  height: 60px;
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .title {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+  }
+  .new-button {
+    padding: 10px 15px;
+    background: #FF0729;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  .signout-button {
+    background: #002F9B;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 25px;
+    top: 12px;
+    text-transform: uppercase;
   }
 }

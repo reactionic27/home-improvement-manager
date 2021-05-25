@@ -3,6 +3,10 @@
     <%= button_to "Sign in with Facebook", user_facebook_omniauth_authorize_path, method: :post, class: 'facebook-button' %>
   </div>
 <% else %>
-  <%= button_to "Logout", users_sign_out_path, method: :delete %>
+  <div class="header">
+    <span class="title">Home Improvement</span>
+    <button class="new-button">New Project</button>
+    <%= button_to "Sign out", users_sign_out_path, method: :delete, class: 'signout-button' %>
+  </div>
   <%= react_component("Projects", props: @login_props, prerender: false) %>
 <% end %>
