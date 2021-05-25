@@ -71,7 +71,7 @@ body {
   .project-card {
     margin-top: 30px;
     padding: 10px 0px 10px 0px;
-    box-shadow: 2px 2px 1px #aaaaaa;
+    box-shadow: 1px 1px 1px #aaaaaa;
     border: 1px solid #aaaaaa;
     border-radius: 3px;
     width: 70%;
@@ -137,14 +137,14 @@ body {
           display: flex;
           justify-content: center;
           .block {
-            border: 2px solid #aaaaaa;
+            border: 1px solid #aaaaaa;
             width: 400px;
             height: 150px;
             display: flex;
             border-radius: 5px;
             .left {
               width: 200px;
-              border-right: 2px solid #aaaaaa;
+              border-right: 1px solid #aaaaaa;
               display: flex;
               flex-direction: column;
               justify-content: center;
