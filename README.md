@@ -8,7 +8,7 @@
 
   `rails db:create db:migrate db:seed`
 
-* Running backend on local
+* Running app on local
 
   `rails s`
 
