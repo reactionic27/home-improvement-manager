@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .facebook-button {
+    padding: 10px 15px;
+    background: #4463AD;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+}
