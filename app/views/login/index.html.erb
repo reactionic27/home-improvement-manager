@@ -8,5 +8,5 @@
     <button class="new-button">New Project</button>
     <%= button_to "Sign out", users_sign_out_path, method: :delete, class: 'signout-button' %>
   </div>
-  <%= react_component("Projects", props: @login_props, prerender: false) %>
+  <%= react_component("Projects", props: @projects_props, prerender: false) %>
 <% end %>

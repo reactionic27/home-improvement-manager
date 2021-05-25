@@ -4,6 +4,7 @@ class LoginController < ApplicationController
   layout "login"
 
   def index
-    @login_props = {}
+    projects = Project.all
+    @projects_props = { projects: projects }
   end
 end
