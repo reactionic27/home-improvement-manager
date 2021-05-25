@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { EffortCard } from '../EffortCard/EffortCard';
-import {calculatePeriod} from '../../utils/date';
+import { calculatePeriod } from '../../utils/date';
 import '../../styles/custom.scss'
 
 export function Projects(props) {
