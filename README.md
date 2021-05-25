@@ -1,24 +1,17 @@
-# README
+# Home Improvement Manager
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Setup environment
 
-Things you may want to cover:
+  `bundle install`
 
-* Ruby version
+* Database setup
 
-* System dependencies
+  `rails db:create db:migrate db:seed`
 
-* Configuration
+* Running backend on local
 
-* Database creation
+  `rails s`
 
-* Database initialization
+* Running unit test
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  `rails test`
