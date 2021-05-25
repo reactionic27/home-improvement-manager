@@ -9,7 +9,7 @@ export function EffortCard(props) {
           <div className="title">
             Estimated level of effort
           </div>
-          <div className="level">
+          <div className="estimated-level">
             {project.estimated_level}
           </div>
         </div>

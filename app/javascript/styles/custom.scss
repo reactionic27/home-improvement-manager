@@ -42,7 +42,7 @@ body {
     outline: none;
     border: none;
     border-radius: 3px;
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Mukta', sans-serif;
     cursor: pointer;
     margin-left: 30px;
@@ -83,8 +83,9 @@ body {
       align-items: center;
       position: relative;
       .title {
-        font-family: 25px;
+        font-size: 25px;
         font-weight: bold;
+        color: #3D3F3E;
       }
       .status-button {
         width: 100px;
@@ -129,6 +130,7 @@ body {
         .description {
           width: 50%;
           color: #0c0c0c;
+          font-size: 15px;
         }
         .effort {
           width: 50%;
@@ -162,6 +164,11 @@ body {
               height: 50px;
               font-size: 16px;
               font-weight: 500;
+              color: #7C899B;
+            }
+            .estimated-level {
+              font-size: 35px;
+              font-weight: bold;
               color: #7C899B;
             }
             .level {
