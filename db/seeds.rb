@@ -4,8 +4,8 @@ puts '== Seeding database =='
   types = ['private', 'public']
   status = ['created', 'started', 'stopped', 'completed']
   Project.create!(
-    name: Faker::Lorem.sentence,
-    description: Faker::Lorem.sentence,
+    name: Faker::Company.name,
+    description: Faker::Lorem.paragraph_by_chars(number: 500, supplemental: false),
     project_type: types.sample,
     estimated_level: rand(20...30),
     actual_level: rand(10...19),

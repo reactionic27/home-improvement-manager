@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Mukta', sans-serif;
 }
 
 .login-container {
@@ -15,6 +16,7 @@ body {
     cursor: pointer;
     outline: none;
     border: none;
+    font-family: 'Mukta', sans-serif;
   }
 }
 
@@ -29,7 +31,7 @@ body {
     color: white;
     font-size: 18px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mukta', sans-serif;
     text-transform: uppercase;
   }
   .new-button {
@@ -41,10 +43,12 @@ body {
     border: none;
     border-radius: 3px;
     font-size: 10px;
+    font-family: 'Mukta', sans-serif;
     cursor: pointer;
     margin-left: 30px;
   }
   .signout-button {
+    font-family: 'Mukta', sans-serif;
     background: #002F9B;
     color: white;
     padding: 10px 15px;
@@ -64,8 +68,85 @@ body {
   padding: 0px 200px 0px 200px;
   .project-card {
     margin-top: 30px;
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     box-shadow: 2px 2px 1px #aaaaaa;
     border: 1px solid #aaaaaa;
+    .card-header {
+      height: 40px;
+      padding: 10px;
+      border-bottom: 1px solid #aaaaaa;
+      display: flex;
+      align-items: center;
+      position: relative;
+      .title {
+        font-family: 25px;
+        font-weight: bold;
+      }
+      .status-button {
+        width: 100px;
+        padding: 10px 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+        color: red;
+        border-radius: 3px;
+        position: absolute;
+        right: 10px;
+        text-transform: uppercase;
+        font-size: 13px;
+      }
+    }
+    .card-content {
+      padding: 10px;
+      .bottom-content {
+        display: flex;
+        height: 200px;
+        .description {
+          width: 50%;
+          color: #0c0c0c;
+        }
+        .effort {
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          .block {
+            border: 2px solid #aaaaaa;
+            width: 400px;
+            height: 150px;
+            display: flex;
+            .left {
+              width: 200px;
+              border-right: 2px solid #aaaaaa;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+            }
+            .right {
+              width: 200px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+            }
+            .title {
+              width: 100px;
+              height: 50px;
+              font-size: 16px;
+              font-weight: 500;
+              color: #7C899B;
+            }
+            .level {
+              font-size: 35px;
+              font-weight: bold;
+              color: #00992C;
+            }
+          }
+        }
+      }
+    }
   }
 }
